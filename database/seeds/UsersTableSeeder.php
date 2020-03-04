@@ -22,7 +22,7 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('password'),
             'created_at' => now(),
             'updated_at' => now(),
-            'image' => 'https://www.totaljobs.com/CompanyLogos/b206621df21b4134aa34fb0bf4d52688.png'
+            
         ]);
 
         DB::table('user_venue')->insert([
