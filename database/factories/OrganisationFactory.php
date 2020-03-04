@@ -23,6 +23,6 @@ $factory->define(Organisation::class, function (Faker $faker) {
         'member_size' => $faker->numberBetween($min = 300, $max = 1000),
         'year_founded' => $faker->numberBetween($min = 1800, $max = 2019),
         'website_url' => $faker->url,
-        'image' => $faker->imageUrl($width = 640, $height = 480),
+        
     ];
 });
