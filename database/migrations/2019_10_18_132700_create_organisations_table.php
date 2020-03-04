@@ -22,7 +22,7 @@ class CreateOrganisationsTable extends Migration
             $table->integer('member_size');
             $table->integer('year_founded');
             $table->string('website_url');
-            $table->string('image');
+            
         });
     }
 
