@@ -22,8 +22,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
 
-            // Profile Picture
-            $table->string('image');
+            
         });
     }
 
